@@ -1,0 +1,67 @@
+.App {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(180deg, #dbdbdb, 0.1%, transparent, 95%, #111);
+}
+
+.chart {
+  width: 720px;
+  margin-top: 40px;
+}
+
+.chart-types {
+  position: absolute;
+  left: 50px;
+  top: 215px;
+  padding-left: 20px;
+}
+
+.chart-types div {
+  margin-bottom: 15px;
+  background-color: rgb(61, 57, 57);
+  color: white;
+  font-size: 20px;
+  width: 225px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 400ms;
+}
+
+.chart-types div:hover {
+  padding: 5px;
+  background-color: #e5383b;
+}
+
+.chart-div h2 {
+  text-align: center;
+}
+
+.chart-types-top {
+  position: absolute;
+  left: 30px;
+  top: 50px;
+  padding-left: 20px;
+  font-size: 18px;
+  width: 300px;
+}
+.chart-types-top img {
+  position: absolute;
+  left: 100px;
+  top: 35px;
+  width: 100px;
+}
+
+.lines {
+  position: absolute;
+  right: 40px;
+  top: -135px;
+}
+.lines img {
+  width: 250px;
+}
